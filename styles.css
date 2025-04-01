@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.logo-text{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.scrolled {
+    background-color: white !important;
+    color: black !important;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 48px;
+}
+
+#banner{
+    background-image: url('images/Untitled\ \(2\).png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.banner-image{
+    height: 200px;
+    width: auto;
+}
+
+#series-info {
+    background: url('images/Untitled.jpg') no-repeat center center/cover;
+}
+
+#series-info .container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 30px;
+    color: #000;
+}
+
+.series-image {
+    width: 500px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.series-text {
+    max-width: 700px;
+}
+
+.series-text h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.series-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
+
+#combat-mechanics {
+    background: url('images/bC1OJOh9uSOJSwFYRPVxtIv1hwAd4KskKfp9xjnslq-T0hUaof6Qzft3EQs_eEqPAXrMiqyWMqfqUy-lFWRdHS8=w16383.jpg') no-repeat center center/cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#combat-mechanics .container {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.combat-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.combat-image {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.combat-image-right {
+    width: 500px;
+    height: auto;
+}
+
+.combat-text {
+    max-width: 700px;
+}
+
+.combat-text h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.combat-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
+
+#turn-based-combat {
+    background: url('images/ZLiIaP4N_CWLznk-cY6nTyYwHjwqiRGivMiocwI_qjmWpQVMT5sd5kqIWRK8oXEWw-dDfBy0KJsvjqW2j40D8SI=w16383.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#turn-based-combat::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#turn-based-combat .container {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.turn-based-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.turn-image {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.turn-image-right {
+    width: 500px;
+    height: auto;
+}
+
+.turn-based-text {
+    max-width: 700px;
+}
+
+.turn-based-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
+
+#side-content {
+    position: relative;
+    background: url('images/Untitled (1).jpg') no-repeat center center/cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#side-content .container {
+    position: relative;
+    text-align: left;
+    color: #fff;
+    padding: 30px;
+}
+
+.side-content-text h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.side-content-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
+
+#minigames {
+    position: relative;
+    background: url('images/dEFt93iP_YExXBlma2aNMmnQMP1R_WvO1wJNA0HDXX5cy6heNLaP3gJsnaHJgEFZqBc8FKehRgBO8nIR07t9c_4=w16383.jpg') no-repeat center center/cover;
+    padding: 20px 20px;
+}
+
+#minigames::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#minigames .container {
+    position: relative;
+    color: #fff;
+}
+
+#minigames h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.minigames-images {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.minigame-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.minigames-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
+
+#substories {
+    position: relative;
+    background: url('images/V6zIwAFkDzY8xBAzPFb6GDLim_-YcBmvxHWop59SH2FB4z0teSWpkgRaM4eZXFnwYiSG4pVivSFQ9R2yT_Wl0OY=w16383.jpg') no-repeat center center/cover;
+    padding: 20px;
+    text-align: left;
+}
+
+#substories::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#substories .container {
+    position: relative;
+    color: #fff;
+}
+
+#substories h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.substories-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.substory {
+    text-align: center;
+}
+
+.substory-image {
+    width: 100%;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.substory p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
